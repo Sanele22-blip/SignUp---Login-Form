@@ -6,6 +6,10 @@ body {
     padding: 0;
 }
 
+a {
+    color: black;
+}
+
 main {
     display: flex;
     flex-direction: column;

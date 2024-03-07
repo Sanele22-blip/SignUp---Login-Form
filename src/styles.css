@@ -14,11 +14,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     height: 100vh;
 }
 
-form {
+.form-data{
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -33,7 +33,7 @@ h1 {
 }
 
 .username-input {
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 10px;
     border:  1px solid #ccc;
@@ -42,7 +42,7 @@ h1 {
 }
 
 .mail-input {
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 10px;
     border:  1px solid #ccc;
@@ -51,7 +51,7 @@ h1 {
 }
 
 .password-input {
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 10px;
     border:  1px solid #ccc;
@@ -60,7 +60,7 @@ h1 {
 }
 
 .confirm-input{
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     margin-bottom: 10px;
     border:  1px solid #ccc;
@@ -69,7 +69,7 @@ h1 {
 }
 
 .sign-up {
-    width: 100%;
+    width: calc(100% - 20px);
     padding: 10px;
     background-color: purple;
     color: #fff;
@@ -91,6 +91,16 @@ h1 {
     box-sizing: border-box;
 }
 
+.login-data {
+
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px;
+}
+
 .pass-input {
     width: 100%;
     padding: 10px;
@@ -101,7 +111,7 @@ h1 {
 }
 
 .login-input {
-    width: 100%;
+    width: calc(100%- 20px);
     padding: 10px;
     background-color: purple;
     color: #fff;
